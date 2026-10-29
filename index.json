@@ -73,7 +73,7 @@
       "versions": [
         {
           "version": "1.2.0",
-          "publishTimestamp": 1792944204,
+          "publishTimestamp": 1793012873,
           "engines": {
             "dsh": ">=0.2.1-rc.2"
           },
@@ -111,7 +111,7 @@
       "versions": [
         {
           "version": "0.4.1",
-          "publishTimestamp": 1793117004,
+          "publishTimestamp": 1793185673,
           "engines": {
             "dsh": ">=0.2.0"
           },
@@ -149,14 +149,14 @@
       "versions": [
         {
           "version": "2.0.0",
-          "publishTimestamp": 1793203404,
+          "publishTimestamp": 1793272073,
           "source": {
             "type": "npm",
             "registry": "https://npm.your-company.com/"
           }
         }
       ],
-      "icon": "https://cdn.jsdelivr.net/npm/@scope/dsh-baz/icon.svg"
+      "icon": "icons/baz.svg"
     }
   ]
 }
