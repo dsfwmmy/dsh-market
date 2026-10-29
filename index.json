@@ -1,0 +1,162 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Team Mixed Market",
+    "zh": "团队混合插件市场"
+  },
+  "description": {
+    "en": "npm + GitHub git sources (seed)",
+    "zh": "npm + GitHub 源，种子骨架"
+  },
+  "metadata": {
+    "categories": {
+      "tools": {
+        "title": {
+          "en": "Tools",
+          "zh": "工具"
+        }
+      },
+      "internal": {
+        "title": {
+          "en": "Internal",
+          "zh": "内部"
+        }
+      }
+    },
+    "labels": {
+      "verified": {
+        "title": {
+          "en": "Verified",
+          "zh": "已校验"
+        }
+      },
+      "smoke": {
+        "title": {
+          "en": "Smoke",
+          "zh": "冒烟"
+        }
+      },
+      "sandbox": {
+        "title": {
+          "en": "Sandboxed",
+          "zh": "沙箱运行"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-plugin-foo",
+      "title": {
+        "en": "Foo",
+        "zh": "Foo 工具"
+      },
+      "description": {
+        "en": "From npm (seed)",
+        "zh": "npm 源，种子"
+      },
+      "author": "team",
+      "repository": {
+        "url": "https://github.com/your-team/dsh-plugin-foo"
+      },
+      "metadata": {
+        "category": "tools",
+        "labels": [
+          "verified",
+          "sandbox"
+        ],
+        "keywords": [
+          "foo",
+          "demo"
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.2.0",
+          "publishTimestamp": 1792944204,
+          "engines": {
+            "dsh": ">=0.2.1-rc.2"
+          },
+          "source": {
+            "type": "npm"
+          }
+        }
+      ],
+      "icon": "icons/foo.svg"
+    },
+    {
+      "name": "dsh-plugin-bar",
+      "title": {
+        "en": "Bar",
+        "zh": "Bar 内部插件"
+      },
+      "description": {
+        "en": "From GitHub git (seed)",
+        "zh": "git 源，种子"
+      },
+      "author": "team",
+      "repository": {
+        "url": "https://github.com/your-team/dsh-plugin-bar"
+      },
+      "metadata": {
+        "category": "internal",
+        "labels": [
+          "verified"
+        ],
+        "keywords": [
+          "bar",
+          "git"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.4.1",
+          "publishTimestamp": 1793117004,
+          "engines": {
+            "dsh": ">=0.2.0"
+          },
+          "source": {
+            "type": "git",
+            "url": "https://github.com/your-team/dsh-plugin-bar",
+            "commit": "7c4d0ef3a1b2c3d4e5f60718293a4b5c6d7e8f90",
+            "path": "packages/bar"
+          }
+        }
+      ],
+      "icon": "icons/bar.svg"
+    },
+    {
+      "name": "@scope/dsh-baz",
+      "title": {
+        "en": "Baz",
+        "zh": "Baz 私有源"
+      },
+      "description": {
+        "en": "npm with private registry (seed)",
+        "zh": "私有源，种子"
+      },
+      "author": "team",
+      "metadata": {
+        "category": "tools",
+        "labels": [
+          "verified",
+          "sandbox"
+        ],
+        "keywords": [
+          "baz"
+        ]
+      },
+      "versions": [
+        {
+          "version": "2.0.0",
+          "publishTimestamp": 1793203404,
+          "source": {
+            "type": "npm",
+            "registry": "https://npm.your-company.com/"
+          }
+        }
+      ],
+      "icon": "https://cdn.jsdelivr.net/npm/@scope/dsh-baz/icon.svg"
+    }
+  ]
+}
