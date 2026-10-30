@@ -73,7 +73,7 @@
       "versions": [
         {
           "version": "1.2.0",
-          "publishTimestamp": 1793012873,
+          "publishTimestamp": 1793091739,
           "engines": {
             "dsh": ">=0.2.1-rc.2"
           },
@@ -111,7 +111,7 @@
       "versions": [
         {
           "version": "0.4.1",
-          "publishTimestamp": 1793185673,
+          "publishTimestamp": 1793264539,
           "engines": {
             "dsh": ">=0.2.0"
           },
@@ -149,7 +149,7 @@
       "versions": [
         {
           "version": "2.0.0",
-          "publishTimestamp": 1793272073,
+          "publishTimestamp": 1793350939,
           "source": {
             "type": "npm",
             "registry": "https://npm.your-company.com/"
